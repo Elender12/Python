@@ -1,0 +1,12 @@
+from banco import Banco
+banquito = Banco("2457","Pedro")
+banquito.imprimirDatos()
+banquito.cambioTitular("Elena")
+banquito.ingresarDinero(500)
+banquito.retirarDinero(900)
+banquito.retirarDinero(50)
+banquito.imprimirDatos()
+banquito.bloquearCuenta()
+banquito.ingresarDinero(2000)
+banquito.desbloquearCuenta()
+banquito.cambioTitular("")
